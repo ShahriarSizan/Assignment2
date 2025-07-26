@@ -83,3 +83,14 @@
       </div>
     </div>
   </section>
+  <script>
+    document.querySelectorAll("button").forEach(btn => {
+      if (btn.innerText.includes("ADD TO CART")) {
+        btn.addEventListener("click", () => {
+          alert("Flower Added to Cart")
+        })
+      }
+    })
+  </script>
+</body>
+</html>
