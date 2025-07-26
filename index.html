@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fauguei Flowers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laugei Flowers</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans bg-[#f5f6fa] text-[#222]">
@@ -83,37 +83,28 @@
       </div>
     </div>
   </section>
-  <script>
-    document.querySelectorAll("button").forEach(btn => {
-      if (btn.innerText.includes("ADD TO CART")) {
-        btn.addEventListener("click", () => {
-          alert("Flower Added to Cart")
-        })
-      }
-    })
-  </script>
-</body>
-</html>
-<section class="flex flex-col md:flex-row items-center justify-between gap-8 px-6 py-12 max-w-6xl mx-auto">
-  <div class="relative w-full md:w-1/2">
-    <img src="assets/flower-store.png" alt="Plant Lover" class="w-full">
-    <img src="assets/trusted-badge.png" alt="Trusted Badge" class="absolute top-[-20px] left-[-20px] w-20 animate-spin hidden md:block">
-  </div>
-  <div class="w-full md:w-1/2 space-y-4">
-    <h2 class="text-2xl font-bold">Flower & Plants <span class="text-orange-600">Lover</span></h2>
-    <ul class="text-sm text-gray-700 list-disc list-inside space-y-2">
-      <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms.</li>
-      <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms.</li>
-      <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms.</li>
-    </ul>
-  </div>
-</section>
-<section class="text-center px-6 py-12 max-w-6xl mx-auto">
-  <h2 class="text-3xl font-bold"><span class="text-orange-600">Latest</span> Deals</h2>
-  <p class="mt-2 text-sm text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-    <div class="relative">
-      <img src="assets/deal-bloom.png" alt="Bloom Deal" class="w-full rounded-md">
+
+  <section class="flex flex-col md:flex-row items-center justify-between gap-8 px-6 py-12 max-w-6xl mx-auto">
+    <div class="relative w-full md:w-1/2">
+      <img src="assets/flower-store.png" alt="Plant Lover" class="w-full">
+      <img src="assets/trusted-badge.png" alt="Trusted Badge" class="absolute top-[-20px] left-[-20px] w-20 animate-spin hidden md:block">
+    </div>
+    <div class="w-full md:w-1/2 space-y-4">
+      <h2 class="text-2xl font-bold">Flower & Plants <span class="text-orange-600">Lover</span></h2>
+      <ul class="text-sm text-gray-700 list-disc list-inside space-y-2">
+        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms.</li>
+        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms.</li>
+        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="text-center px-6 py-12 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold"><span class="text-orange-600">Latest</span> Deals</h2>
+    <p class="mt-2 text-sm text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+      <div class="relative">
+        <img src="assets/deal-bloom.png" alt="Bloom Deal" class="w-full rounded-md">
         <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
           <div class="text-white text-center space-y-2">
             <h3 class="text-sm font-bold">60% Off | Bloom Plant</h3>
@@ -141,6 +132,7 @@
       </div>
     </div>
   </section>
+
   <section class="relative bg-cover bg-center text-center text-white py-20" style="background-image: url('assets/news-letter-bg.png')">
     <h2 class="text-3xl font-bold">Join the colorful Bunch</h2>
     <div class="mt-6 flex justify-center flex-wrap gap-2 px-4">
@@ -148,6 +140,7 @@
       <button class="bg-orange-500 px-6 py-2">Subscribe</button>
     </div>
   </section>
+
   <footer class="bg-white text-gray-700 px-6 py-12">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-10">
       <div class="space-y-4 md:w-1/3">
@@ -178,3 +171,16 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    document.querySelectorAll("button").forEach(btn => {
+      if (btn.innerText.includes("ADD TO CART")) {
+        btn.addEventListener("click", () => {
+          alert("Flower Added to Cart")
+        })
+      }
+    })
+  </script>
+
+</body>
+</html>
